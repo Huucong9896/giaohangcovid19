@@ -13,6 +13,10 @@ ul.admin_menu li {
     float: left;
     margin: 5px;
 }
+ul.admin_menu li a {
+    text-decoration: none;
+    color: darkcyan;
+}
 h3.title_admin {
     text-align: center;
     font-size: 40px;

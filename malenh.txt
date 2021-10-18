@@ -4,9 +4,10 @@ float left đổ sang trái phải
     clear: both;	ngắt đổ 
 }
 hover {background : color} chose màu
-text decoration xóa gạch ngang đường đẫn
+text decoration xóa gạch ngang đường đẫn trên thẻ ul
 <?php
 header('Location: http://localhost/TOTNGHIEP/pages');
+if(isset   nếu tồn tại điều kiện 
 git add .
 git commit -m "điền nội dung commit vào đây"
 git push origin master
