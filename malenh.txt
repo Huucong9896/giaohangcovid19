@@ -7,3 +7,6 @@ hover {background : color} chose màu
 text decoration xóa gạch ngang đường đẫn
 <?php
 header('Location: http://localhost/TOTNGHIEP/pages');
+git add .
+git commit -m "điền nội dung commit vào đây"
+git push origin master
