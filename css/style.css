@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("../images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid #000;
+    height: 200px;
+    width: 100%;
+    
+}
+.menu{
+    border: 1px solid #ffe6e6;
+    height: 50px;
+    width: 100%;
+    background: #b3ecff;
+}
+ul.listmenu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin: 0 auto;
+    width: 60%;
+    line-height: 30px
+}
+ul.listmenu li {
+    padding: 0;
+    float: left;
+    margin: 10px;
+}
+ul.listmenu li:hover {
+    background: lawngreen;
+}
+ul.listmenu li a {
+    text-decoration: none;
+    text-align: center;
+    color: darkgreen;
+}
+#main{
+    border: 1px solid #b3ecff;
+    height: auto;
+    width: 100%;
+}
+.sidebar{
+    border: 1px solid #99004d;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 4px;
+    float: left;
+}
+ul.listsanpham {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    line-height: 30px
+}
+ul.listsanpham li {
+    padding: 0;
+    margin: 10px;
+}
+ul.listsanpham li:hover {
+    background: lightgrey;
+}
+ul.listsanpham li a {
+    text-decoration: none;
+    text-align: left;
+    /* text-align: center; */
+    color: darkgreen;
+    display: block;
+}
+.maincontent{
+    border: 1px solid #ffff1a;
+    height: auto;
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li {
+    width: 19%;
+    border: 1px dashed #1aff1a;
+    margin: 30px;
+    float: left;
+    background: #f2f2f2;
+    height: 220px;
+}
+ul.product_list li img {
+    width: 100%;
+}
+ul.product_list li a {
+    text-decoration: none;
+}
+p.tittle_product {
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+p.price_product {
+    text-align: center;
+    color: tomato;
+    font-size: 16px;
+    font-weight: 800;
+}
+.footer{
+    border: 1px solid #a3a375;
+    height: 150px;
+    width: 100%;
+    background: #ac7339;
+}
+p.footer_text {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+.clear{
+    clear: both;
+}

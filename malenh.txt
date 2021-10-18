@@ -1,0 +1,9 @@
+float left đổ sang trái phải
+       right 	 
+.clear{
+    clear: both;	ngắt đổ 
+}
+hover {background : color} chose màu
+text decoration xóa gạch ngang đường đẫn
+<?php
+header('Location: http://localhost/TOTNGHIEP/pages');
