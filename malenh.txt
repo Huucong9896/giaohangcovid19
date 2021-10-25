@@ -8,6 +8,7 @@ text decoration xóa gạch ngang đường đẫn trên thẻ ul
 <?php
 header('Location: http://localhost/TOTNGHIEP/pages');
 if(isset   nếu tồn tại điều kiện 
+enctype="multipart/form-data  cần có khi gửi file lên sv
 git add .
 git commit -m "điền nội dung commit vào đây"
 git push origin master
