@@ -16,6 +16,8 @@
                     include("main/giohang.php");
                 }elseif($tam=='lienhe'){
                     include("main/lienhe.php");
+                }elseif($tam=='sanpham'){
+                    include("main/sanpham.php");
                 }elseif($tam=='tintuc'){
                     include("main/tintuc.php");
                 }else{
