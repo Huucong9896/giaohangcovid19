@@ -14,6 +14,7 @@ header('Location: http://localhost/TOTNGHIEP/pages');
 if(isset   nếu tồn tại điều kiện 
 enctype="multipart/form-data  cần có khi gửi file lên sv
 array_merge lien ket du lieu
+connect
 git add .
 git commit -m "điền nội dung commit vào đây"
 git push origin master

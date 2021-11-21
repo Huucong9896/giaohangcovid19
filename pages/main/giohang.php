@@ -1,7 +1,13 @@
-<?php 
+<!-- <?php 
     session_start();
-?>
-<p>Giỏ hàng của bạn</p>
+?> -->
+<p><?php 
+    if(isset($_SESSION['dangky'])){
+        echo 'Giỏ hàng của : '.'<span style="color:green">'.$_SESSION['dangky'].'</span>';
+    }else{
+        echo 'Giỏ hàng của bạn';
+    }
+    ?></p>
 <?php 
     if(isset($_SESSION['cart'])){
         // echo'<pre>';
@@ -52,6 +58,18 @@
         <td colspan="8">
             <p style="float: left;">Tổng Tiền : <?php echo number_format($tongtien,0,',','.').' VND'?></p><br/>
             <p style="float: right;margin-right: 5px;"><a href="pages/main/themgiohang.php?delcart=1">Xóa Giỏ Hàng</a></p>
+            <div style="clear:both;"></div>
+            <?php 
+                if(isset($_SESSION['dangky'])){
+            ?>
+                <p><a href="index.php?quanly=thanhtoan">Đặt hàng</a></p>
+            <?php 
+                }else{
+            ?>
+                <p><a href="index.php?quanly=dangky">Đăng ký Đặt hàng</a></p>
+            <?php 
+                }
+            ?>
         </td>
     </tr>
     <?php 
