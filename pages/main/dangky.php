@@ -31,7 +31,7 @@
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    width:100%;
+    /* width:100%; */
     resize: vertical;
     padding:15px;
     border-radius:15px;
@@ -72,8 +72,9 @@
 
     /* Float cancel and signup buttons and add an equal width */
     .signupbtn {
-    float: left;
-    width: 100%;
+    margin: auto;
+    display: block;
+    width: 20%;
     border-radius:15px;
     border:0;
     box-shadow:4px 4px 10px rgba(0,0,0,0.2);
@@ -98,25 +99,25 @@
     <p>Xin hãy nhập biểu mẫu bên dưới để đăng ký.</p>
     <hr>
     <label for="hovaten"><b>Họ Và Tên</b></label>
-    <input type="text" placeholder="Nhập tên khách hàng" name="hovaten" required>
+    <input type="text" placeholder="Nhập tên khách hàng" name="hovaten" required><br>
 
     <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Nhập Email" name="email" required>
+    <input type="text" placeholder="Nhập Email" name="email" required><br>
 
     <label for="dienthoai"><b>Số Điện Thoại</b></label>
-    <input type="text" placeholder="Nhập số điện thoại" name="dienthoai" required>
+    <input type="text" placeholder="Nhập số điện thoại" name="dienthoai" required><br>
 
     <label for="diachi"><b>Địa Chỉ</b></label>
-    <input type="text" placeholder="Nhập Địa chỉ nhận hàng" name="diachi" required>
+    <input type="text" placeholder="Nhập Địa chỉ nhận hàng" name="diachi" required><br>
 
     <label for="matkhau"><b>Mật Khẩu</b></label>
-    <input type="password" placeholder="Nhập Mật Khẩu" name="matkhau" required>
+    <input type="password" placeholder="Nhập Mật Khẩu" name="matkhau" required><br>
 
 
 
     <div class="clearfix">
       <button type="submit" class="signupbtn" name="dangky">Sign Up</button>
-      <p>Bạn đã có tài khoản? <a href="index.php?quanly=dangnhap"> Đăng Nhập</a></p>
     </div>
+    <p>Bạn đã có tài khoản? <a href="index.php?quanly=dangnhap"> Đăng Nhập</a></p>
   </div>
 </form>

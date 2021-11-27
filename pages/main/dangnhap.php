@@ -74,8 +74,9 @@
 
     /* Float cancel and signup buttons and add an equal width */
     .signupbtn {
-    float: left;
-    width: 100%;
+    margin: auto;
+    display: block;
+    width: 10%;
     border-radius:15px;
     border:0;
     box-shadow:4px 4px 10px rgba(0,0,0,0.2);
@@ -100,7 +101,7 @@
     <hr>
 
     <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Nhập Email" name="email" required>
+    <input type="text" placeholder="Nhập Email" name="email" required><br>
 
     <label for="matkhau"><b>Mật Khẩu</b></label>
     <input type="password" placeholder="Nhập Mật Khẩu" name="matkhau" required>

@@ -1,1 +1,1 @@
-<p>chưa có thông tin covid mới</p>
+<p>Chưa có thông tin covid mới</p>
