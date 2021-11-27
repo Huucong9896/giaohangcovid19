@@ -18,9 +18,9 @@
 <style type="text/css">
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
     * {box-sizing: border-box}
-    body{
-    font-family: 'Noto Sans JP', sans-serif;
-    }
+    /* body{
+    font-family: 'Time New Roman', sans-serif;
+    } */
     h1, label{
     color: DodgerBlue;
     }
