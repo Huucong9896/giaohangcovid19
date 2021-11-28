@@ -5,14 +5,17 @@
         $dienthoai=$_POST['dienthoai'];
         $diachi=$_POST['diachi'];
         $matkhau=md5($_POST['matkhau']);
-        $sql_dangky= mysqli_query($mysqli, "INSERT INTO tbl_dangky(tenkhachhang,email,diachi,matkhau,dienthoai) VALUE ('".$tenkhachhang."','".$email."',
-        '".$diachi."','".$matkhau."','".$dienthoai."')"); 
+        $sql_dangky= mysqli_query($mysqli, "INSERT INTO tbl_dangky(tenkhachhang,email,diachi,matkhau,dienthoai) VALUE 
+        ('".$tenkhachhang."','".$email."','".$diachi."','".$matkhau."','".$dienthoai."')"); 
         if($sql_dangky){
             echo '<p style = "color:green">Đăng ký thành công</p>';
-            $_SESSION['dangky']=$tenkhachhang;
-            header('Location:index.php?quanly=giohang');
-        }
-        
+            $_SESSION['dangky']= $tenkhachhang;
+            
+            $_SESSION['id_khachhang']= mysqli_insert_id($mysqli);           
+            echo '<p style="float:right;margin-top: -40px;"><a style="text-decoration: none;color:red;font-style: oblique;" href="index.php">Tiếp tục mua sắm </a>|
+            <a style="text-decoration: none;color:red;font-style: oblique;" href="index.php?quanly=giohang"> Quay lại giỏ hàng</a></p>';
+        }  
+
     }
 ?>
 <style type="text/css">

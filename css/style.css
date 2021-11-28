@@ -229,8 +229,8 @@ i.fas.fa-minus:hover {
 }
 td a {
     text-decoration: none;
-    color:black;
+    color:orangered;
 }
 td a:hover {
-    color: orangered;
+    color: black;
 }

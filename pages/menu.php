@@ -22,25 +22,22 @@
                 ?>  
                 <li><a href="index.php?quanly=giohang">Giỏ hàng</a></li>
                 <?php 
-                    if(isset($_SESSION['dangky'])){
+                if(isset($_SESSION['dangky'])){
                 ?>
                 <li><a href="index.php?dangxuat=1">Đăng Xuất</a></li>
                 <?php 
-                    }else{
+                }else{
                 ?>
                 <li><a href="index.php?quanly=dangky">Đăng ký</a></li>
                 <?php 
-                    }  
+                }  
                 ?>
+                
+                
                 <li><a href="index.php?quanly=tintuc">Tin Tức</a></li>
                 <li><a href="index.php?quanly=lienhe">Liên hệ</a></li>
             </ul>
-            <!-- <p>
-                <form action="">
-                    <input type="text" placeholder="Tìm kiếm..." name="tukhoa">
-                    <input type="submit" name="timkiem" value="Tìm kiếm">
-                </form>
-            </p> -->
+            
             <style>
                 nav{
                 background-color:#1abc9c;
@@ -118,7 +115,7 @@
                 margin: 0px;
                 } */
             </style>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+            
             <li class="search">
             Tìm Kiếm
             <div class="search-bar"  >
@@ -132,4 +129,4 @@
             </p>    
             </div>
             </li>
-        </div>
+</div>

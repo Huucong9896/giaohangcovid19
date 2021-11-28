@@ -15,12 +15,13 @@ ul.admin_menu li {
 }
 ul.admin_menu li a {
     text-decoration: none;
-    color: darkcyan;
+    color: #009F75;
+    font-size: 16px;
 }
 h3.title_admin {
     text-align: center;
     font-size: 40px;
-    color: cornflowerblue;
+    color: #009F75;
 }
 .clear{
     clear: both;

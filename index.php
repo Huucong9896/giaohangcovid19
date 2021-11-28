@@ -13,6 +13,7 @@
     <div class="wrapper">
         <?php 
         session_start();
+        //unset($_SESSION['dangky']);
             include("admincp/config/config.php");
             include("pages/header.php");
             include("pages/menu.php");

@@ -1,9 +1,8 @@
-<!-- <?php 
-    session_start();
-?> -->
+
 <p><?php 
     if(isset($_SESSION['dangky'])){
         echo 'Giỏ hàng của : '.'<span style="color:green">'.$_SESSION['dangky'].'</span>';
+        echo $_SESSION['id_khachhang'];
     }else{
         echo 'Giỏ hàng của bạn';
     }
@@ -62,11 +61,11 @@
             <?php 
                 if(isset($_SESSION['dangky'])){
             ?>
-                <p><a href="index.php?quanly=thanhtoan">Đặt hàng</a></p>
+                <p><a href="pages/main/thanhtoan.php">Đặt Hàng</a></p>
             <?php 
                 }else{
             ?>
-                <p><a href="index.php?quanly=dangky">Đăng ký Đặt hàng</a></p>
+                <p><a href="index.php?quanly=dangky">Đăng Ký Đặt Hàng</a></p>
             <?php 
                 }
             ?>
