@@ -13,7 +13,8 @@ text decoration xóa gạch ngang đường đẫn trên thẻ ul
 header('Location: http://localhost/TOTNGHIEP/pages');
 if(isset   nếu tồn tại điều kiện 
 enctype="multipart/form-data  cần có khi gửi file lên sv
-array_merge lien ket du lieu
+array_merge lien ket du lieu 
+<div style="clear: both;"></div> xóa ảnh hưởng của style phía trên
 connect
 git add .
 git commit -m "điền nội dung commit vào đây"
