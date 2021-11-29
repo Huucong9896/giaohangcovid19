@@ -20,22 +20,23 @@
                 <?php 
                  }
                 ?>  
-                <li><a href="index.php?quanly=giohang">Giỏ hàng</a></li>
+                <li><a href="index.php?quanly=giohang">Giỏ Hàng</a></li>
                 <?php 
                 if(isset($_SESSION['dangky'])){
                 ?>
                 <li><a href="index.php?dangxuat=1">Đăng Xuất</a></li>
+                <li><a href="index.php?quanly=thaydoimatkhau">Thay Đổi Mật Khẩu</a></li>
                 <?php 
                 }else{
                 ?>
-                <li><a href="index.php?quanly=dangky">Đăng ký</a></li>
+                <li><a href="index.php?quanly=dangky">Đăng Ký</a></li>
                 <?php 
                 }  
                 ?>
                 
                 
                 <li><a href="index.php?quanly=tintuc">Tin Tức</a></li>
-                <li><a href="index.php?quanly=lienhe">Liên hệ</a></li>
+                <li><a href="index.php?quanly=lienhe">Liên Hệ</a></li>
             </ul>
             
             <style>

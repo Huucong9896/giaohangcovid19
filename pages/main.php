@@ -28,6 +28,8 @@
                     include("main/timkiem.php");
                 }elseif($tam=='camon'){
                     include("main/camon.php");
+                }elseif($tam=='thaydoimatkhau'){
+                    include("main/thaydoimatkhau.php");
                 }elseif($tam=='tintuc'){
                     include("main/tintuc.php");
                 }else{
