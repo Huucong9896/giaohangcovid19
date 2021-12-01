@@ -12,7 +12,7 @@
         foreach($_SESSION['cart'] as $key => $value){
             $id_sanpham = $value['id'];
             $soluong = $value['soluong'];
-            $insert_order_details = "INSERT INTO tbl_cart_details(id_sanpham,code_cart,soluong) 
+            $insert_order_details = "INSERT INTO tbl_cart_details(id_sanpham,code_cart,soluongmua) 
             value ('".$id_sanpham."','".$code_oder."','".$soluong."')";
             mysqli_query($mysqli,$insert_order_details);
         }

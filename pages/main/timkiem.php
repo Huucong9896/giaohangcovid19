@@ -6,7 +6,7 @@
     AND tbl_sanpham.tensanpham LIKE '%".$tukhoa."%'";
     $query_listout= mysqli_query($mysqli,$sql_listout);  
 ?>
-<h3>Mặt hàng tìm kiếm : <?php echo $_POST['tukhoa']; ?></h3>
+<p style="font-weight: bold;font-style: italic;">Mặt hàng tìm kiếm : <?php echo $_POST['tukhoa']; ?></p>
                 <ul class="product_list">
                 <?php 
                         while($row_listout = mysqli_fetch_array($query_listout)){

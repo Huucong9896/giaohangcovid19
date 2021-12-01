@@ -7,10 +7,10 @@
     if($page==''|| $page==1){
         $begin=0;
     }else{
-        $begin = ($page*2)-2;//phân trang
+        $begin = ($page*10)-10;//phân trang
     }
     $sql_listout ="SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc = tbl_danhmuc.id_danhmuc 
-    ORDER BY tbl_sanpham.id_sanpham DESC LIMIT $begin,2";//bắt đầu từ begin tới 4 sản phẩm tiếp theo
+    ORDER BY tbl_sanpham.id_sanpham DESC LIMIT $begin,10";//bắt đầu từ begin tới 4 sản phẩm tiếp theo
     $query_listout= mysqli_query($mysqli,$sql_listout);  
 ?>
 <h3>Hàng tiêu dùng mới</h3>
@@ -59,7 +59,7 @@
                 <?php 
                     $sql_trang =mysqli_query($mysqli,"SELECT *FROM tbl_sanpham");
                     $row_count = mysqli_num_rows($sql_trang);
-                    $trang = ceil($row_count/2);//chia trang 
+                    $trang = ceil($row_count/10);//chia trang 
                 ?>
                 <ul class="list_trang">
                     <p style="padding: 10px 20px;font-size: 30px;margin: 0;color: burlywood;"><</p>
