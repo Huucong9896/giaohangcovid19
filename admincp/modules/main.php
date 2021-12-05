@@ -22,6 +22,14 @@
                     include("modules/quanlydonhang/lietke.php");
                 }elseif($tam=='donhang' && $query=='xemdonhang'){
                     include("modules/quanlydonhang/xemdonhang.php");
+                
+                }elseif($tam=='quanlydanhmucbaiviet' && $query=='them'){
+                    include("modules/quanlydanhmucbaiviet/them.php");
+                    include("modules/quanlydanhmucbaiviet/lietke.php");
+                    
+                }elseif($tam=='quanlydanhmucbaiviet' && $query=='sua'){
+                    include("modules/quanlydanhmucbaiviet/sua.php");
+
                 }else{
                     include("modules/dashboard.php");
                 }

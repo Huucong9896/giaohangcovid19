@@ -2,6 +2,13 @@
     $sql_lietkesp = "SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc ORDER BY id_sanpham DESC";// desc acs
     $row_lietkesp = mysqli_query($mysqli,$sql_lietkesp);
 ?>
+<style>
+    td{
+        padding: 8px;
+        border: 1px solid #dee2e6;
+        text-align: center;
+    }
+</style>
 <p>Liệt kê sản phẩm</p>
 <table style="width:100%" border= "1" style="border-collapse: collapse;">
 <tr>

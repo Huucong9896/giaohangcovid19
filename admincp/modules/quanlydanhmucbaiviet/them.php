@@ -1,4 +1,4 @@
-<p>Thêm danh mục sản phẩm </p>
+<p>Thêm danh mục bài viết </p>
 <style>
         table {
         width: 100%;        
@@ -37,20 +37,21 @@
     background-color: #e7e7e7;
     }
     p{
-    font-style: italic;
+        font-style: italic;
     }
 </style>
 <table>
-<form method="POST" action="modules/quanlydanhmucsp/xuly.php">
+<form method="POST" action="modules/quanlydanhmucbaiviet/xuly.php">
     <tr>
         <td>Tên danh mục</td>
-        <td><input type="text" name="tendanhmuc"></td>
+        <td><input type="text" name="tendanhmucbaiviet"></td>
     </tr>
     <tr>
         <td>Thứ tự</td>
         <td><input type="text" name="thutu"></td>
     </tr><tr>
-        <td colspan="2"><input type="submit" class="button" name="themdanhmuc" value="Thêm danh mục sản phẩm "></td>
-    </tr>
+        <td colspan="2"><input type="submit" class="button" name="themdanhmucbaiviet" value="Thêm danh mục bài viết "></td>
+    </tr>  
   </form>
 </table>
+<table>
