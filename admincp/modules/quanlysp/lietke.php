@@ -39,9 +39,9 @@ while($row = mysqli_fetch_array($row_lietkesp)){
     <td><?php echo $row['masp'] ?></td>
     <td><?php echo $row['tomtat'] ?></td>
     <td><?php if ($row['tinhtrang']==1){
-        echo 'Kích hoạt';
+        echo 'Hàng Mới';
     }else{
-        echo 'Ẩn';
+        echo 'Hàng Cũ';
     } ?></td>
     <td>
         <a href="modules/quanlysp/xuly.php?idsanpham=<?php echo $row['id_sanpham']?>">

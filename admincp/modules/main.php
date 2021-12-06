@@ -30,6 +30,12 @@
                 }elseif($tam=='quanlydanhmucbaiviet' && $query=='sua'){
                     include("modules/quanlydanhmucbaiviet/sua.php");
 
+                }elseif($tam=='quanlybaiviet' && $query=='them'){
+                    include("modules/quanlybaiviet/them.php");
+                    include("modules/quanlybaiviet/lietke.php");
+                }elseif($tam=='quanlybaiviet' && $query=='sua'){
+                    include("modules/quanlybaiviet/sua.php");
+
                 }else{
                     include("modules/dashboard.php");
                 }

@@ -23,7 +23,7 @@ if(isset($_POST['themsanpham'])){
     header('Location:../../index.php?action=quanlysp&query=them');
 }elseif(isset($_POST['suasanpham'])){ 
     //sửa
-    if($hinhanh!=''){
+    if(!empty($_FILES['hinhanh']['name'])){
 
         move_uploaded_file($hinhanh_tmp,'uploads/'.$hinhanh);
 
