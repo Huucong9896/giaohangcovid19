@@ -10,7 +10,7 @@
     }
 </style>
 <p>Liệt kê sản phẩm</p>
-<table style="width:100%" border= "1" style="border-collapse: collapse;">
+<table>
 <tr>
     <th>ID</th>
     <th>Tên sản phẩm</th>

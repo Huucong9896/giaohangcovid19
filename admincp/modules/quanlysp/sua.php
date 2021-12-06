@@ -51,7 +51,7 @@
     }
 </style>
 <p>Sửa sản phẩm </p>
-<table border="1" width= "100%" style="border-collapse: collapse;">
+<table>
 <?php 
 while($row = mysqli_fetch_array($row_suasp)){
 ?>
