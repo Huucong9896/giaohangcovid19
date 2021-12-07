@@ -44,11 +44,11 @@
 <form method="POST" action="modules/quanlydanhmucbaiviet/xuly.php">
     <tr>
         <td>Tên danh mục</td>
-        <td><input type="text" name="tendanhmucbaiviet"></td>
+        <td><input type="text" name="tendanhmucbaiviet" required=""></td>
     </tr>
     <tr>
         <td>Thứ tự</td>
-        <td><input type="text" name="thutu"></td>
+        <td><input type="text" name="thutu" required=""></td>
     </tr><tr>
         <td colspan="2"><input type="submit" class="button" name="themdanhmucbaiviet" value="Thêm danh mục bài viết "></td>
     </tr>  

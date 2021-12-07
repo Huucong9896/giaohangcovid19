@@ -51,7 +51,7 @@
 <form method="POST" action="modules/quanlybaiviet/xuly.php" enctype="multipart/form-data">
     <tr>
         <td class="them">Tên Bài Viết</td>
-        <td><input type="text" name="tenbaiviet"></td>
+        <td><input type="text" name="tenbaiviet" required=""></td>
     </tr>
     <tr>
         <td class="them">Hình Ảnh</td>

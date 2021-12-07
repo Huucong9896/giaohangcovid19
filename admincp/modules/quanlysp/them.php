@@ -51,23 +51,23 @@
 <form method="POST" action="modules/quanlysp/xuly.php" enctype="multipart/form-data">
     <tr>
         <td class="them">Tên Sản Phẩm</td>
-        <td><input type="text" name="tensanpham"></td>
+        <td><input type="text" name="tensanpham" required=""></td>
     </tr>
     <tr>
         <td class="them">Mã Sản Phẩm</td>
-        <td><input type="text" name="masp"></td>
+        <td><input type="text" name="masp" required=""></td>
     </tr>
     <tr>
         <td class="them">Giá Sản Phẩm</td>
-        <td><input type="text" name="giasp"></td>
+        <td><input type="text" name="giasp" required=""></td>
     </tr>
     <tr>
         <td class="them">Số Lượng Sản Phẩm</td>
-        <td><input type="text" name="soluong"></td>
+        <td><input type="text" name="soluong" required=""></td>
     </tr>
     <tr>
         <td class="them">Hình ảnh</td>
-        <td><input type="file" name="hinhanh"></td>
+        <td><input type="file" name="hinhanh" required=""></td>
     </tr>
     <tr>
         <td class="them">Tóm tắt</td>

@@ -58,7 +58,7 @@ while($row = mysqli_fetch_array($row_suabv)){
 <form method="POST" action="modules/quanlybaiviet/xuly.php?idbaiviet=<?php echo $row['id'] ?>" enctype="multipart/form-data">
     <tr>
         <td>Tên Bài Viết</td>
-        <td><input type="text" value="<?php echo $row['tenbaiviet'] ?>" name="tenbaiviet"></td>
+        <td><input type="text" value="<?php echo $row['tenbaiviet'] ?>" name="tenbaiviet" required=""></td>
     </tr>
     <tr>
         <td>Hình Ảnh</td>

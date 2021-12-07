@@ -58,19 +58,19 @@ while($row = mysqli_fetch_array($row_suasp)){
 <form method="POST" action="modules/quanlysp/xuly.php?idsanpham=<?php echo $row['id_sanpham'] ?>" enctype="multipart/form-data">
     <tr>
         <td>Tên Sản Phẩm</td>
-        <td><input type="text" value="<?php echo $row['tensanpham'] ?>" name="tensanpham"></td>
+        <td><input type="text" value="<?php echo $row['tensanpham'] ?>" name="tensanpham" required=""></td>
     </tr>
     <tr>
         <td>Mã Sản Phẩm</td>
-        <td><input type="text" value="<?php echo $row['masp'] ?>" name="masp"></td>
+        <td><input type="text" value="<?php echo $row['masp'] ?>" name="masp" required=""></td>
     </tr>
     <tr>
         <td>Giá Sản Phẩm</td>
-        <td><input type="text" value="<?php echo $row['giasp'] ?>" name="giasp"></td>
+        <td><input type="text" value="<?php echo $row['giasp'] ?>" name="giasp" required=""></td>
     </tr>
     <tr>
         <td>Số Lượng Sản Phẩm</td>
-        <td><input type="text" value="<?php echo $row['soluong'] ?>" name="soluong"></td>
+        <td><input type="text" value="<?php echo $row['soluong'] ?>" name="soluong" required=""></td>
     </tr>
     <tr>
         <td>Hình ảnh</td>

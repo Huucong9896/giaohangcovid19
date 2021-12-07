@@ -164,10 +164,10 @@
         <h3>Login ADMIN</h3>
 
         <label for="username">Username</label>
-        <input type="text" placeholder="Email or Phone" name="username">
+        <input type="text" placeholder="Email or Phone" name="username" required="">
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" name="password">
+        <input type="password" placeholder="Password" name="password" required="">
 
         <button name="dangnhap">Log In</button>
         <div class="social">
