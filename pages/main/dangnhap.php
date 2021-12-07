@@ -104,7 +104,7 @@
     <!-- <p>Xin hãy nhập biểu mẫu bên dưới để đăng ký.</p> -->
     <hr>
 
-    <label for="email"><b>Email</b></label>
+    <label for="email"><b>Email</b></label><br>
     <input type="text" placeholder="Nhập Email" name="email" required><br>
 
     <label for="matkhau"><b>Mật Khẩu</b></label>

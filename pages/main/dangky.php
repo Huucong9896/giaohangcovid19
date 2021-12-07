@@ -101,16 +101,16 @@
     <h1>Đăng ký tài khoản khách hàng</h1>
     <p>Xin hãy nhập biểu mẫu bên dưới để đăng ký.</p>
     <hr>
-    <label for="hovaten"><b>Họ Và Tên</b></label>
+    <label for="hovaten"><b>Họ Và Tên</b></label><br>
     <input type="text" placeholder="Nhập tên khách hàng" name="hovaten" required><br>
 
-    <label for="email"><b>Email</b></label>
+    <label for="email"><b>Email</b></label><br>
     <input type="text" placeholder="Nhập Email" name="email" required><br>
 
-    <label for="dienthoai"><b>Số Điện Thoại</b></label>
+    <label for="dienthoai"><b>Số Điện Thoại</b></label><br>
     <input type="text" placeholder="Nhập số điện thoại" name="dienthoai" required><br>
 
-    <label for="diachi"><b>Địa Chỉ</b></label>
+    <label for="diachi"><b>Địa Chỉ</b></label><br>
     <input type="text" placeholder="Nhập Địa chỉ nhận hàng" name="diachi" required><br>
 
     <label for="matkhau"><b>Mật Khẩu</b></label>

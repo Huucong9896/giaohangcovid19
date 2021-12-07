@@ -15,7 +15,55 @@
 
     }
 ?>
-<table style= "width:100%;text-align:center;border-collapse:collapse;" border="1">
+<style>
+        table {
+        width: 100%;        
+        border-collapse: collapse;
+    }
+    td {
+        padding: 8px;
+        border: 1px solid #dee2e6;
+        text-align: center;
+    }
+    th {
+        padding: 8px;
+        border: 1px solid #dee2e6;
+        height: 40px;
+        text-align: center;
+    }
+    input[type=text] {
+    height: 20px;
+    border: none;
+    /* border-bottom: 0.01px solid green; */
+    padding: 5px 0 5px 0;
+    width: 100%;
+    }
+    .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+    float: left;
+    }
+    p{
+    font-style: italic;
+    }
+    .them{
+        text-align: left;
+    }
+    .button:hover{
+    color: black;
+    background-color: #e7e7e7;
+    }
+</style>
+<table>
     <tr>
         <th>Id</th>
         <th>Mã sản phẩm</th>

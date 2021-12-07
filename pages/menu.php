@@ -12,14 +12,14 @@
 <div class="menu">
             <ul class="listmenu">
                 <li><a href="index.php">Trang chủ</a></li>
-                <?php 
+                <!-- <?php 
                     while($row_danhmuc=mysqli_fetch_array($query_danhmuc)){
                 ?>
                 <li><a href="index.php?quanly=danhmucsanpham&id=<?php echo $row_danhmuc['id_danhmuc'] ?>">
                 <?php echo $row_danhmuc['tendanhmuc'] ?> </a></li>
                 <?php 
                  }
-                ?>  
+                ?>   -->
                 <li><a href="index.php?quanly=giohang">Giỏ Hàng</a></li>
                 <?php 
                 if(isset($_SESSION['dangky'])){
