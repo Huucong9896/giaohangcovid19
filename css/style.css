@@ -65,11 +65,11 @@ ul.listmenu li a {
     width: 100%;
 }
 .sidebar{
-    border: 1px solid #99004d;
+    border: 1px solid #dee2e6;
     height: auto;
     width: 20%;
-    margin-top: 5px;
-    margin-left: 4px;
+    margin-top: 0px;
+    margin-left: 0px;
     float: left;
 }
 ul.baiviet {
@@ -244,3 +244,38 @@ td a {
 td a:hover {
     color: black;
 }
+/* Tabs */
+.tabs {
+    width: 100%;
+    background-color: lightgreen;
+    border-radius: 5px 5px 5px 5px;
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+  }
+  ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 8px 10px;
+    border-radius: 5px 5px 5px 5px;
+    /*border: 1px solid #d5d5de;
+    border-bottom: none;*/
+    cursor: pointer;
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+    background-color: lawngreen;
+  }
+  #tabs-nav li a {
+    text-decoration: none;
+    color: darkgreen;
+  }
+  .tab-content {
+    padding: 10px;
+    border: 5px solid lightgreen;
+    background-color: #FFF;
+  }

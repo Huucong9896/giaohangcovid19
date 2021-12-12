@@ -1,4 +1,4 @@
-<p>Chi tiết sản phẩm</p>
+<h3>Chi tiết sản phẩm</h3>
 <?php 
     $sql_chitiet ="SELECT * FROM tbl_sanpham,tbl_danhmuc WHERE tbl_sanpham.id_danhmuc=tbl_danhmuc.id_danhmuc AND tbl_sanpham.id_sanpham='$_GET[id]' LIMIT 1";
     $query_chitiet= mysqli_query($mysqli,$sql_chitiet);
@@ -20,6 +20,25 @@
     </div>
     </form>
 </div>
+<div class="clear"></div>
+    <div class="tabs">
+    <ul id="tabs-nav">
+        <li><a href="#tab1">Nguồn gốc xuất xứ</a></li>
+        <li><a href="#tab2">Chi tiết và gợi ý món ăn</a></li>
+        <li><a href="#tab3">Hình ảnh</a></li>
+    </ul> <!-- END tabs-nav -->
+    <div id="tabs-content">
+        <div id="tab1" class="tab-content">
+        <?php echo $row_chitiet['tomtat']?>
+        </div>
+        <div id="tab2" class="tab-content">
+        <?php echo $row_chitiet['noidung']?>
+        </div>
+        <div id="tab3" class="tab-content">
+        <img width="100%" src="admincp/modules/quanlysp/uploads/<?php echo $row_chitiet['hinhanh']?>">
+        </div>
+    </div> <!-- END tabs-content -->
+    </div> <!-- END tabs -->
 <?php 
 }
 ?>
