@@ -66,11 +66,21 @@ ul.listmenu li a {
 }
 .sidebar{
     border: 1px solid #99004d;
-    height: 390px;
+    height: auto;
     width: 20%;
     margin-top: 5px;
     margin-left: 4px;
     float: left;
+}
+ul.baiviet {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.baiviet li {
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
 }
 ul.listsanpham {
     padding: 0;

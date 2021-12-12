@@ -36,7 +36,7 @@
                 
                 
                 <li><a href="index.php?quanly=tintuc">Tin Tức</a></li>
-                <li><a href="index.php?quanly=lienhe">Liên Hệ</a></li>
+                <li><a href="index.php?quanly=lienhe">Tuyển Dụng</a></li>
             </ul>
             
             <style>
