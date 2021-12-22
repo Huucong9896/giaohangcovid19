@@ -9,6 +9,7 @@
         if($count>0){
             $row_data= mysqli_fetch_array($row);
             $_SESSION['dangky']=$row_data['tenkhachhang'];
+            $_SESSION['email']=$row_data['email'];
             $_SESSION['id_khachhang']=$row_data['id_dangky'];
 
             echo '<p style="color:green;margin-top: 20px;"> Đăng nhập thành công.<p style="float:right;margin-top: -40px;">

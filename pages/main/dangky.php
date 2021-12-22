@@ -10,7 +10,7 @@
         if($sql_dangky){
             echo '<p style = "color:green">Đăng ký thành công</p>';
             $_SESSION['dangky']= $tenkhachhang;
-            
+            $_SESSION['email']= $email; 
             $_SESSION['id_khachhang']= mysqli_insert_id($mysqli);           
             echo '<p style="float:right;margin-top: -40px;"><a style="text-decoration: none;color:red;font-style: oblique;" href="index.php">Tiếp tục mua sắm </a>|
             <a style="text-decoration: none;color:red;font-style: oblique;" href="index.php?quanly=giohang"> Quay lại giỏ hàng</a></p>';
