@@ -49,6 +49,7 @@
     <th>Email</th>
     <th>Số điện thoại</th>
     <th>Tình Trạng</th>
+    <th>Ngày đặt</th>
     <th>Quản lý</th>
 </tr>
 <?php 
@@ -72,6 +73,7 @@ while($row = mysqli_fetch_array($row_lietke_dh)){
 
         ?>
     </td>
+    <td><?php echo $row['cart_date'] ?></td>
     <td>
         <a href="index.php?action=donhang&query=xemdonhang&code=<?php echo $row['code_cart']?>">Xem đơn</a>
     </td>

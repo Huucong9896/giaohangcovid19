@@ -1,12 +1,16 @@
 
-<?php 
+<?php
     session_start();
     include("../../admincp/config/config.php");
     require("../../mail/sendmail.php");
+    require("../../carbon/autoload.php");
+    use Carbon\Carbon;
+    use Carbon\CarbonInterval;
 
+    $now = Carbon::now('Asia/Ho_Chi_Minh');
     $id_khachhang = $_SESSION['id_khachhang'];
     $code_oder = rand(0,99999);
-    $insert_cart = "INSERT INTO tbl_cart(id_khachhang,code_cart,cart_status) value ('".$id_khachhang."','".$code_oder."',1)";
+    $insert_cart = "INSERT INTO tbl_cart(id_khachhang,code_cart,cart_status,cart_date) value ('".$id_khachhang."','".$code_oder."',1,'".$now."')";
     $cart_query = mysqli_query($mysqli,$insert_cart);
 
     if($cart_query){

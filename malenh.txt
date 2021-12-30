@@ -17,6 +17,8 @@ array_merge lien ket du lieu
 <div style="clear: both;"></div> xóa ảnh hưởng của style phía trên
 phân trang ở main/index
 connect
+https://carbon.nesbot.com/docs/
+https://morrisjs.github.io/morris.js/
 git add .
 git commit -m "điền nội dung commit vào đây"
 git push origin master
