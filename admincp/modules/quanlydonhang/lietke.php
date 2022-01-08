@@ -51,6 +51,7 @@
     <th>Tình Trạng</th>
     <th>Ngày đặt</th>
     <th>Quản lý</th>
+    <th>In đơn hàng</th>
 </tr>
 <?php 
 $i = 0;
@@ -76,6 +77,9 @@ while($row = mysqli_fetch_array($row_lietke_dh)){
     <td><?php echo $row['cart_date'] ?></td>
     <td>
         <a href="index.php?action=donhang&query=xemdonhang&code=<?php echo $row['code_cart']?>">Xem đơn</a>
+    </td>
+    <td>
+        <a href="modules/quanlydonhang/indonhang.php?code=<?php echo $row['code_cart']?>">In đơn hàng</a>
     </td>
 
 </tr>

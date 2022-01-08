@@ -18,7 +18,8 @@ array_merge lien ket du lieu
 phân trang ở main/index
 connect
 https://carbon.nesbot.com/docs/
-https://morrisjs.github.io/morris.js/
+https://morrisjs.github.io/morris.js/ 
+http://www.fpdf.org/ in hoa don
 git add .
 git commit -m "điền nội dung commit vào đây"
 git push origin master

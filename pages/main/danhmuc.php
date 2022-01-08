@@ -7,20 +7,20 @@
     $row_title =mysqli_fetch_array($query_lay);
 ?>
 
-<h3>Danh mục Sản phẩm : <?php echo $row_title['tendanhmuc'] ?></h3>
-                <ul class="product_list">
+<h4>Danh mục Sản phẩm : <?php echo $row_title['tendanhmuc'] ?></h4>
+                <div class="row">
                     <?php 
                         while($row_listout = mysqli_fetch_array($query_listout)){
                     ?>
-                    <li>
+                    <div class="col-md-3">
                         <a href="index.php?quanly=sanpham&id=<?php echo $row_listout['id_sanpham'] ?>">
-                        <img src="admincp/modules/quanlysp/uploads/<?php echo $row_listout['hinhanh']?>">
+                        <img class="img img-responsive" width="100%" height="200px" src="admincp/modules/quanlysp/uploads/<?php echo $row_listout['hinhanh']?>">
                             <p class="tittle_product">Tên sản phẩm : <?php echo $row_listout['tensanpham']?></p>
                             <p class="price_product">Giá : <?php echo number_format( $row_listout['giasp'],0,',','.' ).' VND/Kg' ?></p>
+                            <!-- <p style="text-align:center; color :brown"><?php echo $row_listout['tendanhmuc']?></p> -->
                         </a>
-                    </li>
+                    </div>
                    <?php
-                        } 
+                    } 
                    ?>
-                    
-                </ul>
+                </div>
