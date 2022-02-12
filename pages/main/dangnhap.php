@@ -35,13 +35,13 @@
     input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
-    margin: 5px 0 22px 0;
+    /* margin: 5px 0 22px 0; */
     display: inline-block;
     border: none;
-    width:100%;
+    /* width:100%; */
     resize: vertical;
     padding:15px;
-    border-radius:15px;
+    border-radius:0.25rem;
     border:0;
     box-shadow:4px 4px 10px rgba(0,0,0,0.2);
     }
@@ -60,10 +60,10 @@
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 8px 20px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    /* width: 100%; */
     opacity: 0.9;
     }
 
@@ -81,10 +81,10 @@
     .signupbtn {
     margin: auto;
     display: block;
-    width: 10%;
+    width: 15%;
     border-radius:15px;
     border:0;
-    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+    /* box-shadow:4px 4px 10px rgba(0,0,0,0.2); */
     }
 
     /* Add padding to container elements */
@@ -112,7 +112,7 @@
     <input type="password" placeholder="Nhập Mật Khẩu" name="matkhau" required>
 
     <div class="clearfix">
-      <button type="submit" class="signupbtn" name="dangnhap">Đăng nhập</button>
+      <button type="submit" class="signupbtn" name="dangnhap" style="margin-top: 15px;" >Đăng nhập</button>
     </div>
   </div>
 </form>

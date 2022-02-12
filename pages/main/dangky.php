@@ -55,7 +55,7 @@
     button {
     background-color: #4CAF50;
     color: white;
-    padding: 5px 5px;
+    padding: 14px 20px;
     margin: 8px 20px;
     border: none;
     cursor: pointer;

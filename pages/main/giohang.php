@@ -118,7 +118,7 @@
             <?php 
                 if(isset($_SESSION['dangky'])){
             ?>
-                <p><a href="pages/main/thanhtoan.php">Đặt Hàng</a></p>
+                <p><a href="index.php?quanly=vanchuyen">Hình thức vận chuyển</a></p>
             <?php 
                 }else{
             ?>

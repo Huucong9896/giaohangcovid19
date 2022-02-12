@@ -23,3 +23,45 @@ http://www.fpdf.org/ in hoa don
 git add .
 git commit -m "điền nội dung commit vào đây"
 git push origin master
+ // }elseif(isset($_POST['capnhatvanchuyen'])) {
+    //         $name = $_POST['name'];
+    //         $phone = $_POST['phone'];
+    //         $address = $_POST['address'];
+    //         $note = $_POST['note'];
+    //         $id_dangky =  $_SESSION['id_khachhang'];
+    //         $sql_update_vanchuyen = mysqli_query($mysqli, "UPDATE tbl_shipping SET name ='$name', phone = '$phone', address = '$address', note='$note'
+    //         ,id_dangky ='$id_dangky' WHERE id_dangky='$id_dangky'");
+                        
+    //         if($sql_update_vanchuyen){
+    //             echo '<script>alert("Cập nhật vận chuyến thành công")</script>';
+    //              }
+
+    <?php
+            if($name=='' && $phone=='') {
+            ?>
+            <button type="submit" name="themvanchuyen" class="btn btn-primary">Thêm vận chuyển</button>
+            <?php
+            } elseif($name!='' && $phone!=''){
+            ?>
+            <button type="submit" name="capnhatvanchuyen" class="btn btn-success">Cập nhật vận chuyến</button>
+            <?php
+            }
+            ?>
+
+            <?php
+        $id_dangky = $_SESSION['id_khachhang'];
+        $sql_get_vanchuyen = mysqli_query($mysqli,"SELECT * FROM tbl_shipping WHERE id_dangky= '$id_dangky' LIMIT 1");
+        $count = mysqli_num_rows ($sql_get_vanchuyen);
+        if($count>0){
+            $row_get_vanchuyen = mysqli_fetch_array($sql_get_vanchuyen);
+            $name =$row_get_vanchuyen['name'];
+            $phone =$row_get_vanchuyen['phone'];
+            $address =$row_get_vanchuyen['address'];
+            $note = $row_get_vanchuyen ['note'];
+        }else{
+            $name ='';
+            $phone='';
+            $address='';
+            $note='';
+        }
+    ?>
