@@ -31,13 +31,13 @@
         height: 40px;
         text-align: center;
     }
-    input[type=text] {
+    /* input[type=text] {
     height: 20px;
-    border: none;
+    border: none; */
     /* border-bottom: 0.01px solid green; */
-    padding: 5px 0 5px 0;
+    /* padding: 5px 0 5px 0;
     width: 100%;
-    }
+    } */
     .button {
     background-color: #4CAF50;
     border: none;

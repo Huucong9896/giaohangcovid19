@@ -31,13 +31,13 @@
     input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
-    margin: 5px 0 22px 0;
+    /* margin: 2px 0 2px 0; */
     display: inline-block;
     border: none;
     /* width:100%; */
     resize: vertical;
     padding:15px;
-    border-radius:15px;
+    border: radius 0.25rem;;
     border:0;
     box-shadow:4px 4px 10px rgba(0,0,0,0.2);
     }
@@ -55,11 +55,11 @@
     button {
     background-color: #4CAF50;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 5px 5px;
+    margin: 8px 20px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    /* width: 100%; */
     opacity: 0.9;
     }
 
@@ -77,10 +77,10 @@
     .signupbtn {
     margin: auto;
     display: block;
-    width: 20%;
+    width: 15%;
     border-radius:15px;
     border:0;
-    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+    /* box-shadow:4px 4px 10px rgba(0,0,0,0.2); */
     }
 
     /* Add padding to container elements */
@@ -119,7 +119,7 @@
 
 
     <div class="clearfix">
-      <button type="submit" class="signupbtn" name="dangky">Sign Up</button>
+      <button type="submit" class="signupbtn" name="dangky" style="margin-top: 15px;">Sign Up</button>
     </div>
     <p>Bạn đã có tài khoản? <a href="index.php?quanly=dangnhap"> Đăng Nhập</a></p>
   </div>
