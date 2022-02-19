@@ -160,21 +160,21 @@
       <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="momo" >
       <img src="icon/momo.png" height="32" width="32">
       <label class="form-check-label" for="exampleRadios3">
-        MOMO
+        MOMO (Coming Soon)
       </label>
     </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="vnpay" >
       <img src="icon/vnpay.png" height="32" width="32">
       <label class="form-check-label" for="exampleRadios4">
-        VNPay
+        VNPay (Coming Soon)
       </label>
     </div>
     <div class="form-check">
       <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="paypal" >
       <img src="icon/paypal.jpg" height="32" width="32">
       <label class="form-check-label" for="exampleRadios5">
-        PayPal
+        PayPal (Coming Soon)
       </label>
     </div>
     <p style="float: left;">Tổng Tiền : <?php echo number_format($tongtien,0,',','.').' VND'?></p><br/><br>

@@ -175,17 +175,7 @@
                 <p style="float: left;">Tổng Tiền : <?php echo number_format($tongtien,0,',','.').' VND'?></p><br/>
                 <!-- <p style="float: right;margin-right: 5px;"><a href="pages/main/themgiohang.php?delcart=1">Xóa Giỏ Hàng</a></p> -->
                 <div style="clear:both;"></div>
-                <?php 
-                    if(isset($_SESSION['dangky'])){
-                ?>
-                    <p><a href="index.php?quanly=thongtinthanhtoan">Hình thức thanh toán</a></p>
-                <?php 
-                    }else{
-                ?>
-                    <p><a href="index.php?quanly=dangky">Đăng Ký Đặt Hàng</a></p>
-                <?php 
-                    }
-                ?>
+               
             </td>
         </tr>
         <?php 
