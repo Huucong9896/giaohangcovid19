@@ -159,6 +159,9 @@ p.footer_text {
 .clear{
     clear: both;
 }
+.col-md-4.ptthanhtoan .form-check {
+  margin: 15px;
+}
 /* css button */
 button {
     margin: 20px;

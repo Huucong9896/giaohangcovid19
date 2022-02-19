@@ -44,7 +44,7 @@
                     
                     }elseif($tam=='vanchuyen'){
                         include("main/vanchuyen.php");
-                    }elseif($tam=='thanhtoan'){
+                    }elseif($tam=='thongtinthanhtoan'){
                         include("main/thongtinthanhtoan.php");
                     }elseif($tam=='donhangdadat'){
                         include("main/donhangdadat.php");

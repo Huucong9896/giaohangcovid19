@@ -52,7 +52,7 @@
     <div class="arrow-steps clearfix">
         <div class="step done "><span><a href="index.php?quanly=giohang" >Giỏ hàng</a></span> </div>
         <div class="step current"> <span><a href="index.php?quanly=vanchuyen" >Thông tin chuyển hàng</a><span></div>
-        <div class="step"> <span><a href="index.php?quanly=thanhtoan" >Thanh toán</a><span></div>
+        <div class="step"> <span><a href="index.php?quanly=thongtinthanhtoan" >Thanh toán</a><span></div>
         <div class="step"> <span><a href="index.php?quanly=donhangdadat" >Đơn hàng chi tiết</a><span></div>
     </div>
     <h4>Thông tin vận chuyển</h4>
@@ -175,17 +175,17 @@
                 <p style="float: left;">Tổng Tiền : <?php echo number_format($tongtien,0,',','.').' VND'?></p><br/>
                 <!-- <p style="float: right;margin-right: 5px;"><a href="pages/main/themgiohang.php?delcart=1">Xóa Giỏ Hàng</a></p> -->
                 <div style="clear:both;"></div>
-                <!-- <?php 
+                <?php 
                     if(isset($_SESSION['dangky'])){
                 ?>
-                    <p><a href="index.php?quanly=vanchuyen">Hình thức vận chuyển</a></p>
+                    <p><a href="index.php?quanly=thongtinthanhtoan">Hình thức thanh toán</a></p>
                 <?php 
                     }else{
                 ?>
                     <p><a href="index.php?quanly=dangky">Đăng Ký Đặt Hàng</a></p>
                 <?php 
                     }
-                ?> -->
+                ?>
             </td>
         </tr>
         <?php 
@@ -197,6 +197,6 @@
         <?php 
             }
         ?>
-    </table>
+</table>
 </div>
 </div>
