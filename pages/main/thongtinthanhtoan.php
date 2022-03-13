@@ -121,13 +121,7 @@
           <?php 
           }
           ?>
-          <!-- <tr>
-              <td colspan="8">
-                  <p style="float: left;">Tổng Tiền : <?php echo number_format($tongtien,0,',','.').' VND'?></p><br/>
-                  <!-- <p style="float: right;margin-right: 5px;"><a href="pages/main/themgiohang.php?delcart=1">Xóa Giỏ Hàng</a></p> -->
-                  <div style="clear:both;"></div>
-              </td>
-          </tr> -->
+         
           <?php 
               }else{
           ?>
